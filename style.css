@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(32, 30, 30);
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+
+
+.heading__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn__again{
+    font-size: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.btn__again:hover{
+    background-color: rgb(95, 78, 78);
+    color: #fff;
+}
+
+
+.text{
+    font-size: 30px;
+    color: aquamarine;
+    letter-spacing: 2px;
+}
+
+
+
+.heading__title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    color: aquamarine;
+    word-spacing: 10px;
+}
+
+
+.heading__number{
+    font-size: 60px;
+    background-color: aquamarine;
+    border-radius: none;
+    border: 5px;
+    padding: 20px 40px;
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+    margin:  30px auto;
+}
+
+
+
+.play__game{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.input__number{
+    padding: 10px;
+}
+
+
+.btn__check{
+    font-size: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px
+}
+
+.btn__check:hover{
+    color: #fff;
+    background-color: rgb(48, 53, 51);
+}
+
+.box-1{
+    color: #fff;
+}
